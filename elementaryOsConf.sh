@@ -22,6 +22,9 @@ sudo apt-get update
 sudo apt-get install google-chrome-stable -y
 echo "install chrome done"
 
+#Vim
+sudo apt-get install vim -y
+echo "install vim done"
 
 #Clean
 sudo apt-get purge midori-granite
@@ -55,3 +58,11 @@ sudo apt-get install elementary-tweaks
 #switchboard
 
 echo "install elementarytweaks done"
+
+
+#Sublime Text 3
+sudo add-apt-repository ppa:webupd8team/sublime-text-3 -y
+sudo apt-get update
+sudo apt-get install sublime-text-installer -y
+echo "install sublimetext3 done"
+
